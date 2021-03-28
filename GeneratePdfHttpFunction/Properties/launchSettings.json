@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "GeneratePdfHttpFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7075 --nodeDebugPort 5860"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30168,
+      "useSSL": false
+    }
+  }
+}
